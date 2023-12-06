@@ -21,4 +21,6 @@ function getEmployee() {
       cell3.innerHTML = data.email;
     });
 }
+//wire it up 
+
 displaybutton.onclick = getEmployee;
